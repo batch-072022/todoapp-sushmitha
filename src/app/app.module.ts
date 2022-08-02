@@ -14,6 +14,7 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { EditTaskComponent } from './edit-task/edit-task.component';
+import { ViewUserComponent } from './view-user/view-user.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { EditTaskComponent } from './edit-task/edit-task.component';
     ChangePasswordComponent,
     HeaderComponent,
     HomeComponent,
-    EditTaskComponent
+    EditTaskComponent,
+    ViewUserComponent
   ],
   imports: [
     BrowserModule,
